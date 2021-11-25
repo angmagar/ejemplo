@@ -1,0 +1,64 @@
+//Examen Practico Angela Maria Garcia Jimenez
+//Punto 1.
+
+
+var numero1 = 5;
+var numero2 = 8;
+
+//a.
+if(numero1<numero2){
+    console.log("numero1 no es mayor que numero2");
+}else
+{
+console.log("numero1 es mayor que numero2");
+}
+
+//b.
+if(numero2 >0){
+    console.log("numero2 es positivo");
+}else
+{
+console.log("numero2 es negativo");
+}
+
+//c.
+
+if(!numero1 >0){
+    console.log("numero1 es positivo y distinto de cero");
+}else
+{
+console.log("numero1 es negativo y distinto de cero");
+}
+
+//d.
+
+if(numero1++ <=numero2){
+    console.log("Incrementar en 1 unidad el valor de numero1 no lo hace mayor o igual que numero2");
+}else
+{
+console.log("numero1 es mayor que numero2");
+}
+
+//Punto 2.
+
+var dato = 5;
+var resultado = dato;
+var i = dato-1;
+while (i > 1){
+   resultado = resultado * i; 
+    i--;
+}
+console.log(resultado);
+
+//Punto 3.
+
+function EsPar(valor){
+    if (valor%2==0) {
+        alert("El número "+valor+" es par");
+    
+    	} else {
+        	alert("El número "+valor+" es impar");
+    }
+}
+
+EsPar(10);
